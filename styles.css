@@ -1,0 +1,73 @@
+/*Screen UI*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculator {
+    height: 650px;
+    width: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Dropdown*/
+
+.sub-menu {
+    display: none;
+    list-style: none;
+}
+
+.item {
+    width: 100%;
+}
+
+
+.menu-item:hover {
+    position: relative;
+    cursor: pointer;
+    .sub-menu {
+        margin: 0;
+        display: list-item;
+        position: absolute;
+        background-color: lightgray;
+    }
+
+}
+
+/*next*/
+
+
+
+button {
+    margin-top: 20px;
+    height: 25px;
+    width: 75px;
+}
+
+#result {
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    /*background-color: white;*/
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sim {
+    margin-bottom: 20px;
+}
